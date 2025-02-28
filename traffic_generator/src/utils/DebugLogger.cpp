@@ -6,7 +6,7 @@
 #include <iomanip>
 #include <sstream>
 
-// Static class members initialization
+// Static class members 
 std::string DebugLogger::logFilePath = "traffic_simulator.log";
 std::vector<std::string> DebugLogger::recentLogs;
 std::mutex DebugLogger::logMutex;
