@@ -11,7 +11,7 @@
 #include <random>
 #include <cmath>
 
-// Include the necessary headers
+// Include the necessary .
 #include "core/Vehicle.h"
 #include "core/Lane.h"
 #include "core/TrafficLight.h"
