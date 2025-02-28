@@ -2,7 +2,7 @@
 #define _USE_MATH_DEFINES
 #include <cmath>
 #include "visualization/DebugOverlay.h"
-
+// debugger here.
 void DebugOverlay::render(SDL_Renderer* renderer, const TrafficManager& trafficManager) {
     // Draw background for debug panel
     SDL_FRect debugPanel = {10.0f, 10.0f, 200.0f, 300.0f};
