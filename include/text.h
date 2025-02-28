@@ -2,7 +2,7 @@
 
 #ifndef TEXT_H
 #define TEXT_H
-
+//text file
 #include <SDL3/SDL.h>
 #include <SDL3_ttf/SDL_ttf.h>
 #include <string>
