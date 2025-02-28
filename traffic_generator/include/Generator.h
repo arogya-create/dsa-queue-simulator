@@ -22,9 +22,9 @@ private:
     std::filesystem::path dataDir;
     std::chrono::steady_clock::time_point lastGenTime;
 
-    std::mutex fileMutex;  // Add mutex member
+    std::mutex fileMutex;  // Add mutex member.
 
-    // Generation settings
+    // Generation settings.
     struct LaneSettings {
         double spawnProbability;
         int maxVehicles;
