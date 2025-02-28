@@ -4,31 +4,25 @@
     <ClCompile Include="C:\Users\Arogya Poudel\OneDrive\Desktop\dsa-queue-simulator\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Arogya Poudel\OneDrive\Desktop\dsa-queue-simulator\src\core\Vehicle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\Arogya Poudel\OneDrive\Desktop\dsa-queue-simulator\src\core\Lane.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\Arogya Poudel\OneDrive\Desktop\dsa-queue-simulator\src\core\TrafficLight.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Arogya Poudel\OneDrive\Desktop\dsa-queue-simulator\src\managers\TrafficManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Arogya Poudel\OneDrive\Desktop\dsa-queue-simulator\src\managers\IntersectionController.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="C:\Users\Arogya Poudel\OneDrive\Desktop\dsa-queue-simulator\src\managers\FileHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Arogya Poudel\OneDrive\Desktop\dsa-queue-simulator\src\utils\Queue.cpp">
+    <ClCompile Include="C:\Users\Arogya Poudel\OneDrive\Desktop\dsa-queue-simulator\src\managers\TrafficManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\Arogya Poudel\OneDrive\Desktop\dsa-queue-simulator\src\visualization\Renderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Arogya Poudel\OneDrive\Desktop\dsa-queue-simulator\src\visualization\DebugOverlay.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Arogya Poudel\OneDrive\Desktop\dsa-queue-simulator\src\core\Vehicle.cpp">
+    <ClCompile Include="C:\Users\Arogya Poudel\OneDrive\Desktop\dsa-queue-simulator\src\utils\DebugLogger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,6 +1,6 @@
 ^C:\USERS\AROGYA POUDEL\ONEDRIVE\DESKTOP\DSA-QUEUE-SIMULATOR\BUILD\CMAKEFILES\D249522B415156CA56F2B793ADA3400D\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Arogya Poudel/OneDrive/Desktop/dsa-queue-simulator" "-BC:/Users/Arogya Poudel/OneDrive/Desktop/dsa-queue-simulator/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Arogya Poudel/OneDrive/Desktop/dsa-queue-simulator/build/TrafficSimulator.sln"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Arogya Poudel/OneDrive/Desktop/dsa-queue-simulator" "-BC:/Users/Arogya Poudel/OneDrive/Desktop/dsa-queue-simulator/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Arogya Poudel/OneDrive/Desktop/dsa-queue-simulator/build/TrafficJunctionSimulator.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

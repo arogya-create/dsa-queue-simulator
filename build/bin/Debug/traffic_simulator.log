@@ -1,0 +1,1621 @@
+=== Traffic Simulator Log ===
+[2025-02-27 18:50:14.236] [INFO] Starting Traffic Junction Simulator
+[2025-02-27 18:50:14.238] [INFO] TrafficManager created
+[2025-02-27 18:50:14.239] [INFO] FileHandler created with path: data/lanes
+[2025-02-27 18:50:14.240] [INFO] All files initialized successfully
+[2025-02-27 18:50:14.241] [INFO] Created lane A1
+[2025-02-27 18:50:14.242] [INFO] Created lane A2
+[2025-02-27 18:50:14.242] [INFO] Created lane A3
+[2025-02-27 18:50:14.243] [INFO] Created lane B1
+[2025-02-27 18:50:14.243] [INFO] Created lane B2
+[2025-02-27 18:50:14.244] [INFO] Created lane B3
+[2025-02-27 18:50:14.244] [INFO] Created lane C1
+[2025-02-27 18:50:14.245] [INFO] Created lane C2
+[2025-02-27 18:50:14.246] [INFO] Created lane C3
+[2025-02-27 18:50:14.246] [INFO] Created lane D1
+[2025-02-27 18:50:14.247] [INFO] Created lane D2
+[2025-02-27 18:50:14.247] [INFO] Created lane D3
+[2025-02-27 18:50:14.248] [INFO] TrafficLight initialized
+[2025-02-27 18:50:14.249] [INFO] TrafficManager initialized with 12 lanes
+[2025-02-27 18:50:14.481] [INFO] Renderer initialized successfully
+[2025-02-27 18:50:14.481] [INFO] TrafficManager started
+[2025-02-27 18:50:14.483] [INFO] Starting render loop
+[2025-02-27 18:50:14.486] [INFO] Created vehicle V210_L2_LEFT in lane A2
+[2025-02-27 18:50:14.487] [INFO] Vehicle V210_L2_LEFT on lane A2 will go LEFT
+[2025-02-27 18:50:14.488] [ERROR] Routing vehicle V210_L2_LEFT from A2 going LEFT
+[2025-02-27 18:50:14.488] [ERROR] AL2 route: LEFT to DL1
+[2025-02-27 18:50:14.489] [INFO] Vehicle V210_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.489] [INFO] Created vehicle V210_L2_LEFT for lane A2 (LEFT)
+[2025-02-27 18:50:14.490] [INFO] Created vehicle V212_L2_STRAIGHT in lane A2
+[2025-02-27 18:50:14.491] [INFO] Vehicle V212_L2_STRAIGHT on lane A2 will go STRAIGHT
+[2025-02-27 18:50:14.491] [ERROR] Routing vehicle V212_L2_STRAIGHT from A2 going STRAIGHT
+[2025-02-27 18:50:14.492] [ERROR] AL2 route: STRAIGHT to CL1
+[2025-02-27 18:50:14.492] [INFO] Vehicle V212_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.493] [INFO] Created vehicle V212_L2_STRAIGHT for lane A2 (STRAIGHT)
+[2025-02-27 18:50:14.493] [INFO] Created vehicle V222_L2_STRAIGHT in lane A2
+[2025-02-27 18:50:14.494] [INFO] Vehicle V222_L2_STRAIGHT on lane A2 will go STRAIGHT
+[2025-02-27 18:50:14.495] [ERROR] Routing vehicle V222_L2_STRAIGHT from A2 going STRAIGHT
+[2025-02-27 18:50:14.497] [ERROR] AL2 route: STRAIGHT to CL1
+[2025-02-27 18:50:14.497] [INFO] Vehicle V222_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.499] [INFO] Created vehicle V222_L2_STRAIGHT for lane A2 (STRAIGHT)
+[2025-02-27 18:50:14.501] [INFO] Created vehicle V234_L2_LEFT in lane A2
+[2025-02-27 18:50:14.501] [INFO] Vehicle V234_L2_LEFT on lane A2 will go LEFT
+[2025-02-27 18:50:14.502] [ERROR] Routing vehicle V234_L2_LEFT from A2 going LEFT
+[2025-02-27 18:50:14.503] [ERROR] AL2 route: LEFT to DL1
+[2025-02-27 18:50:14.503] [INFO] Vehicle V234_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.504] [INFO] Created vehicle V234_L2_LEFT for lane A2 (LEFT)
+[2025-02-27 18:50:14.505] [INFO] Created vehicle V240_L3_LEFT in lane A3
+[2025-02-27 18:50:14.505] [INFO] Vehicle V240_L3_LEFT on lane A3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.506] [ERROR] Routing vehicle V240_L3_LEFT from A3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.507] [ERROR] AL3 route: LEFT to BL1
+[2025-02-27 18:50:14.507] [INFO] Vehicle V240_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.508] [INFO] Created vehicle V240_L3_LEFT for lane A3 (LEFT)
+[2025-02-27 18:50:14.509] [INFO] Created vehicle V245_L3_LEFT in lane A3
+[2025-02-27 18:50:14.509] [INFO] Vehicle V245_L3_LEFT on lane A3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.510] [ERROR] Routing vehicle V245_L3_LEFT from A3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.511] [ERROR] AL3 route: LEFT to BL1
+[2025-02-27 18:50:14.512] [INFO] Vehicle V245_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.513] [INFO] Created vehicle V245_L3_LEFT for lane A3 (LEFT)
+[2025-02-27 18:50:14.513] [INFO] Created vehicle V247_L2_STRAIGHT in lane A2
+[2025-02-27 18:50:14.515] [INFO] Vehicle V247_L2_STRAIGHT on lane A2 will go STRAIGHT
+[2025-02-27 18:50:14.516] [ERROR] Routing vehicle V247_L2_STRAIGHT from A2 going STRAIGHT
+[2025-02-27 18:50:14.516] [ERROR] AL2 route: STRAIGHT to CL1
+[2025-02-27 18:50:14.517] [INFO] Vehicle V247_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.517] [INFO] Created vehicle V247_L2_STRAIGHT for lane A2 (STRAIGHT)
+[2025-02-27 18:50:14.518] [INFO] Created vehicle V250_L2_LEFT in lane A2
+[2025-02-27 18:50:14.519] [INFO] Vehicle V250_L2_LEFT on lane A2 will go LEFT
+[2025-02-27 18:50:14.519] [ERROR] Routing vehicle V250_L2_LEFT from A2 going LEFT
+[2025-02-27 18:50:14.520] [ERROR] AL2 route: LEFT to DL1
+[2025-02-27 18:50:14.520] [INFO] Vehicle V250_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.521] [INFO] Created vehicle V250_L2_LEFT for lane A2 (LEFT)
+[2025-02-27 18:50:14.522] [INFO] Created vehicle V253_L3_LEFT in lane A3
+[2025-02-27 18:50:14.522] [INFO] Vehicle V253_L3_LEFT on lane A3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.523] [ERROR] Routing vehicle V253_L3_LEFT from A3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.523] [ERROR] AL3 route: LEFT to BL1
+[2025-02-27 18:50:14.524] [INFO] Vehicle V253_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.524] [INFO] Created vehicle V253_L3_LEFT for lane A3 (LEFT)
+[2025-02-27 18:50:14.525] [INFO] Created vehicle V254_L2_STRAIGHT in lane A2
+[2025-02-27 18:50:14.525] [INFO] Vehicle V254_L2_STRAIGHT on lane A2 will go STRAIGHT
+[2025-02-27 18:50:14.526] [ERROR] Routing vehicle V254_L2_STRAIGHT from A2 going STRAIGHT
+[2025-02-27 18:50:14.527] [ERROR] AL2 route: STRAIGHT to CL1
+[2025-02-27 18:50:14.527] [INFO] Vehicle V254_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.528] [INFO] Created vehicle V254_L2_STRAIGHT for lane A2 (STRAIGHT)
+[2025-02-27 18:50:14.529] [INFO] Created vehicle V256_L2_STRAIGHT in lane A2
+[2025-02-27 18:50:14.530] [INFO] Vehicle V256_L2_STRAIGHT on lane A2 will go STRAIGHT
+[2025-02-27 18:50:14.534] [ERROR] Routing vehicle V256_L2_STRAIGHT from A2 going STRAIGHT
+[2025-02-27 18:50:14.535] [ERROR] AL2 route: STRAIGHT to CL1
+[2025-02-27 18:50:14.537] [INFO] Vehicle V256_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.538] [INFO] Created vehicle V256_L2_STRAIGHT for lane A2 (STRAIGHT)
+[2025-02-27 18:50:14.538] [INFO] Created vehicle V265_L3_LEFT in lane A3
+[2025-02-27 18:50:14.539] [INFO] Vehicle V265_L3_LEFT on lane A3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.540] [ERROR] Routing vehicle V265_L3_LEFT from A3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.541] [ERROR] AL3 route: LEFT to BL1
+[2025-02-27 18:50:14.547] [INFO] Vehicle V265_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.550] [INFO] Created vehicle V265_L3_LEFT for lane A3 (LEFT)
+[2025-02-27 18:50:14.551] [INFO] Read 12 vehicles from lane A
+[2025-02-27 18:50:14.553] [INFO] Created vehicle V209_L2_LEFT in lane B2
+[2025-02-27 18:50:14.553] [INFO] Vehicle V209_L2_LEFT on lane B2 will go LEFT
+[2025-02-27 18:50:14.554] [ERROR] Routing vehicle V209_L2_LEFT from B2 going LEFT
+[2025-02-27 18:50:14.555] [ERROR] BL2 route: LEFT to AL1
+[2025-02-27 18:50:14.557] [INFO] Vehicle V209_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.558] [INFO] Created vehicle V209_L2_LEFT for lane B2 (LEFT)
+[2025-02-27 18:50:14.560] [INFO] Created vehicle V211_L2_STRAIGHT in lane B2
+[2025-02-27 18:50:14.562] [INFO] Vehicle V211_L2_STRAIGHT on lane B2 will go STRAIGHT
+[2025-02-27 18:50:14.563] [ERROR] Routing vehicle V211_L2_STRAIGHT from B2 going STRAIGHT
+[2025-02-27 18:50:14.565] [ERROR] BL2 route: STRAIGHT to DL1
+[2025-02-27 18:50:14.570] [INFO] Vehicle V211_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.570] [INFO] Created vehicle V211_L2_STRAIGHT for lane B2 (STRAIGHT)
+[2025-02-27 18:50:14.571] [INFO] Created vehicle V213_L3_LEFT in lane B3
+[2025-02-27 18:50:14.572] [INFO] Vehicle V213_L3_LEFT on lane B3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.573] [ERROR] Routing vehicle V213_L3_LEFT from B3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.573] [ERROR] BL3 route: LEFT to CL1
+[2025-02-27 18:50:14.575] [INFO] Vehicle V213_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.577] [INFO] Created vehicle V213_L3_LEFT for lane B3 (LEFT)
+[2025-02-27 18:50:14.579] [INFO] Created vehicle V220_L2_STRAIGHT in lane B2
+[2025-02-27 18:50:14.581] [INFO] Vehicle V220_L2_STRAIGHT on lane B2 will go STRAIGHT
+[2025-02-27 18:50:14.582] [ERROR] Routing vehicle V220_L2_STRAIGHT from B2 going STRAIGHT
+[2025-02-27 18:50:14.583] [ERROR] BL2 route: STRAIGHT to DL1
+[2025-02-27 18:50:14.583] [INFO] Vehicle V220_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.584] [INFO] Created vehicle V220_L2_STRAIGHT for lane B2 (STRAIGHT)
+[2025-02-27 18:50:14.585] [INFO] Created vehicle V227_L3_LEFT in lane B3
+[2025-02-27 18:50:14.586] [INFO] Vehicle V227_L3_LEFT on lane B3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.586] [ERROR] Routing vehicle V227_L3_LEFT from B3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.587] [ERROR] BL3 route: LEFT to CL1
+[2025-02-27 18:50:14.587] [INFO] Vehicle V227_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.588] [INFO] Created vehicle V227_L3_LEFT for lane B3 (LEFT)
+[2025-02-27 18:50:14.588] [INFO] Created vehicle V228_L2_LEFT in lane B2
+[2025-02-27 18:50:14.589] [INFO] Vehicle V228_L2_LEFT on lane B2 will go LEFT
+[2025-02-27 18:50:14.589] [ERROR] Routing vehicle V228_L2_LEFT from B2 going LEFT
+[2025-02-27 18:50:14.590] [ERROR] BL2 route: LEFT to AL1
+[2025-02-27 18:50:14.591] [INFO] Vehicle V228_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.591] [INFO] Created vehicle V228_L2_LEFT for lane B2 (LEFT)
+[2025-02-27 18:50:14.592] [INFO] Created vehicle V229_L2_STRAIGHT in lane B2
+[2025-02-27 18:50:14.593] [INFO] Vehicle V229_L2_STRAIGHT on lane B2 will go STRAIGHT
+[2025-02-27 18:50:14.593] [ERROR] Routing vehicle V229_L2_STRAIGHT from B2 going STRAIGHT
+[2025-02-27 18:50:14.594] [ERROR] BL2 route: STRAIGHT to DL1
+[2025-02-27 18:50:14.595] [INFO] Vehicle V229_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.595] [INFO] Created vehicle V229_L2_STRAIGHT for lane B2 (STRAIGHT)
+[2025-02-27 18:50:14.596] [INFO] Created vehicle V230_L2_LEFT in lane B2
+[2025-02-27 18:50:14.597] [INFO] Vehicle V230_L2_LEFT on lane B2 will go LEFT
+[2025-02-27 18:50:14.598] [ERROR] Routing vehicle V230_L2_LEFT from B2 going LEFT
+[2025-02-27 18:50:14.598] [ERROR] BL2 route: LEFT to AL1
+[2025-02-27 18:50:14.599] [INFO] Vehicle V230_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.600] [INFO] Created vehicle V230_L2_LEFT for lane B2 (LEFT)
+[2025-02-27 18:50:14.600] [INFO] Created vehicle V235_L3_LEFT in lane B3
+[2025-02-27 18:50:14.601] [INFO] Vehicle V235_L3_LEFT on lane B3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.601] [ERROR] Routing vehicle V235_L3_LEFT from B3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.602] [ERROR] BL3 route: LEFT to CL1
+[2025-02-27 18:50:14.602] [INFO] Vehicle V235_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.603] [INFO] Created vehicle V235_L3_LEFT for lane B3 (LEFT)
+[2025-02-27 18:50:14.603] [INFO] Created vehicle V239_L2_STRAIGHT in lane B2
+[2025-02-27 18:50:14.604] [INFO] Vehicle V239_L2_STRAIGHT on lane B2 will go STRAIGHT
+[2025-02-27 18:50:14.604] [ERROR] Routing vehicle V239_L2_STRAIGHT from B2 going STRAIGHT
+[2025-02-27 18:50:14.605] [ERROR] BL2 route: STRAIGHT to DL1
+[2025-02-27 18:50:14.605] [INFO] Vehicle V239_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.606] [INFO] Created vehicle V239_L2_STRAIGHT for lane B2 (STRAIGHT)
+[2025-02-27 18:50:14.607] [INFO] Created vehicle V241_L3_LEFT in lane B3
+[2025-02-27 18:50:14.607] [INFO] Vehicle V241_L3_LEFT on lane B3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.608] [ERROR] Routing vehicle V241_L3_LEFT from B3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.609] [ERROR] BL3 route: LEFT to CL1
+[2025-02-27 18:50:14.610] [INFO] Vehicle V241_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.612] [INFO] Created vehicle V241_L3_LEFT for lane B3 (LEFT)
+[2025-02-27 18:50:14.613] [INFO] Created vehicle V257_L3_LEFT in lane B3
+[2025-02-27 18:50:14.614] [INFO] Vehicle V257_L3_LEFT on lane B3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.615] [ERROR] Routing vehicle V257_L3_LEFT from B3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.616] [ERROR] BL3 route: LEFT to CL1
+[2025-02-27 18:50:14.617] [INFO] Vehicle V257_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.617] [INFO] Created vehicle V257_L3_LEFT for lane B3 (LEFT)
+[2025-02-27 18:50:14.618] [INFO] Created vehicle V258_L3_LEFT in lane B3
+[2025-02-27 18:50:14.618] [INFO] Vehicle V258_L3_LEFT on lane B3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.619] [ERROR] Routing vehicle V258_L3_LEFT from B3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.620] [ERROR] BL3 route: LEFT to CL1
+[2025-02-27 18:50:14.621] [INFO] Vehicle V258_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.621] [INFO] Created vehicle V258_L3_LEFT for lane B3 (LEFT)
+[2025-02-27 18:50:14.622] [INFO] Created vehicle V261_L3_LEFT in lane B3
+[2025-02-27 18:50:14.623] [INFO] Vehicle V261_L3_LEFT on lane B3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.623] [ERROR] Routing vehicle V261_L3_LEFT from B3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.624] [ERROR] BL3 route: LEFT to CL1
+[2025-02-27 18:50:14.625] [INFO] Vehicle V261_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.625] [INFO] Created vehicle V261_L3_LEFT for lane B3 (LEFT)
+[2025-02-27 18:50:14.626] [INFO] Created vehicle V262_L2_STRAIGHT in lane B2
+[2025-02-27 18:50:14.627] [INFO] Vehicle V262_L2_STRAIGHT on lane B2 will go STRAIGHT
+[2025-02-27 18:50:14.629] [ERROR] Routing vehicle V262_L2_STRAIGHT from B2 going STRAIGHT
+[2025-02-27 18:50:14.630] [ERROR] BL2 route: STRAIGHT to DL1
+[2025-02-27 18:50:14.633] [INFO] Vehicle V262_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.634] [INFO] Created vehicle V262_L2_STRAIGHT for lane B2 (STRAIGHT)
+[2025-02-27 18:50:14.634] [INFO] Created vehicle V263_L2_STRAIGHT in lane B2
+[2025-02-27 18:50:14.635] [INFO] Vehicle V263_L2_STRAIGHT on lane B2 will go STRAIGHT
+[2025-02-27 18:50:14.636] [ERROR] Routing vehicle V263_L2_STRAIGHT from B2 going STRAIGHT
+[2025-02-27 18:50:14.637] [ERROR] BL2 route: STRAIGHT to DL1
+[2025-02-27 18:50:14.642] [INFO] Vehicle V263_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.646] [INFO] Created vehicle V263_L2_STRAIGHT for lane B2 (STRAIGHT)
+[2025-02-27 18:50:14.648] [INFO] Created vehicle V267_L3_LEFT in lane B3
+[2025-02-27 18:50:14.650] [INFO] Vehicle V267_L3_LEFT on lane B3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.651] [ERROR] Routing vehicle V267_L3_LEFT from B3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.651] [ERROR] BL3 route: LEFT to CL1
+[2025-02-27 18:50:14.652] [INFO] Vehicle V267_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.653] [INFO] Created vehicle V267_L3_LEFT for lane B3 (LEFT)
+[2025-02-27 18:50:14.654] [INFO] Read 17 vehicles from lane B
+[2025-02-27 18:50:14.655] [INFO] Created vehicle V214_L2_LEFT in lane C2
+[2025-02-27 18:50:14.655] [INFO] Vehicle V214_L2_LEFT on lane C2 will go LEFT
+[2025-02-27 18:50:14.656] [ERROR] Routing vehicle V214_L2_LEFT from C2 going LEFT
+[2025-02-27 18:50:14.657] [ERROR] CL2 route: LEFT to BL1
+[2025-02-27 18:50:14.658] [INFO] Vehicle V214_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.659] [INFO] Created vehicle V214_L2_LEFT for lane C2 (LEFT)
+[2025-02-27 18:50:14.660] [INFO] Created vehicle V216_L3_LEFT in lane C3
+[2025-02-27 18:50:14.660] [INFO] Vehicle V216_L3_LEFT on lane C3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.662] [ERROR] Routing vehicle V216_L3_LEFT from C3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.663] [ERROR] CL3 route: LEFT to DL1
+[2025-02-27 18:50:14.664] [INFO] Vehicle V216_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.665] [INFO] Created vehicle V216_L3_LEFT for lane C3 (LEFT)
+[2025-02-27 18:50:14.666] [INFO] Created vehicle V217_L2_LEFT in lane C2
+[2025-02-27 18:50:14.667] [INFO] Vehicle V217_L2_LEFT on lane C2 will go LEFT
+[2025-02-27 18:50:14.668] [ERROR] Routing vehicle V217_L2_LEFT from C2 going LEFT
+[2025-02-27 18:50:14.669] [ERROR] CL2 route: LEFT to BL1
+[2025-02-27 18:50:14.669] [INFO] Vehicle V217_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.670] [INFO] Created vehicle V217_L2_LEFT for lane C2 (LEFT)
+[2025-02-27 18:50:14.673] [INFO] Created vehicle V218_L3_LEFT in lane C3
+[2025-02-27 18:50:14.674] [INFO] Vehicle V218_L3_LEFT on lane C3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.675] [ERROR] Routing vehicle V218_L3_LEFT from C3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.676] [ERROR] CL3 route: LEFT to DL1
+[2025-02-27 18:50:14.677] [INFO] Vehicle V218_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.678] [INFO] Created vehicle V218_L3_LEFT for lane C3 (LEFT)
+[2025-02-27 18:50:14.679] [INFO] Created vehicle V219_L3_LEFT in lane C3
+[2025-02-27 18:50:14.680] [INFO] Vehicle V219_L3_LEFT on lane C3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.680] [ERROR] Routing vehicle V219_L3_LEFT from C3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.681] [ERROR] CL3 route: LEFT to DL1
+[2025-02-27 18:50:14.683] [INFO] Vehicle V219_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.683] [INFO] Created vehicle V219_L3_LEFT for lane C3 (LEFT)
+[2025-02-27 18:50:14.685] [INFO] Created vehicle V224_L2_STRAIGHT in lane C2
+[2025-02-27 18:50:14.686] [INFO] Vehicle V224_L2_STRAIGHT on lane C2 will go STRAIGHT
+[2025-02-27 18:50:14.687] [ERROR] Routing vehicle V224_L2_STRAIGHT from C2 going STRAIGHT
+[2025-02-27 18:50:14.688] [ERROR] CL2 route: STRAIGHT to AL1
+[2025-02-27 18:50:14.688] [INFO] Vehicle V224_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.689] [INFO] Created vehicle V224_L2_STRAIGHT for lane C2 (STRAIGHT)
+[2025-02-27 18:50:14.690] [INFO] Created vehicle V231_L2_STRAIGHT in lane C2
+[2025-02-27 18:50:14.690] [INFO] Vehicle V231_L2_STRAIGHT on lane C2 will go STRAIGHT
+[2025-02-27 18:50:14.691] [ERROR] Routing vehicle V231_L2_STRAIGHT from C2 going STRAIGHT
+[2025-02-27 18:50:14.693] [ERROR] CL2 route: STRAIGHT to AL1
+[2025-02-27 18:50:14.693] [INFO] Vehicle V231_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.695] [INFO] Created vehicle V231_L2_STRAIGHT for lane C2 (STRAIGHT)
+[2025-02-27 18:50:14.696] [INFO] Created vehicle V237_L2_LEFT in lane C2
+[2025-02-27 18:50:14.696] [INFO] Vehicle V237_L2_LEFT on lane C2 will go LEFT
+[2025-02-27 18:50:14.699] [ERROR] Routing vehicle V237_L2_LEFT from C2 going LEFT
+[2025-02-27 18:50:14.700] [ERROR] CL2 route: LEFT to BL1
+[2025-02-27 18:50:14.701] [INFO] Vehicle V237_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.702] [INFO] Created vehicle V237_L2_LEFT for lane C2 (LEFT)
+[2025-02-27 18:50:14.702] [INFO] Created vehicle V238_L2_LEFT in lane C2
+[2025-02-27 18:50:14.704] [INFO] Vehicle V238_L2_LEFT on lane C2 will go LEFT
+[2025-02-27 18:50:14.704] [ERROR] Routing vehicle V238_L2_LEFT from C2 going LEFT
+[2025-02-27 18:50:14.705] [ERROR] CL2 route: LEFT to BL1
+[2025-02-27 18:50:14.706] [INFO] Vehicle V238_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.708] [INFO] Created vehicle V238_L2_LEFT for lane C2 (LEFT)
+[2025-02-27 18:50:14.709] [INFO] Created vehicle V246_L3_LEFT in lane C3
+[2025-02-27 18:50:14.710] [INFO] Vehicle V246_L3_LEFT on lane C3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.711] [ERROR] Routing vehicle V246_L3_LEFT from C3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.711] [ERROR] CL3 route: LEFT to DL1
+[2025-02-27 18:50:14.712] [INFO] Vehicle V246_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.713] [INFO] Created vehicle V246_L3_LEFT for lane C3 (LEFT)
+[2025-02-27 18:50:14.715] [INFO] Created vehicle V251_L2_STRAIGHT in lane C2
+[2025-02-27 18:50:14.716] [INFO] Vehicle V251_L2_STRAIGHT on lane C2 will go STRAIGHT
+[2025-02-27 18:50:14.716] [ERROR] Routing vehicle V251_L2_STRAIGHT from C2 going STRAIGHT
+[2025-02-27 18:50:14.717] [ERROR] CL2 route: STRAIGHT to AL1
+[2025-02-27 18:50:14.718] [INFO] Vehicle V251_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.719] [INFO] Created vehicle V251_L2_STRAIGHT for lane C2 (STRAIGHT)
+[2025-02-27 18:50:14.721] [INFO] Created vehicle V255_L3_LEFT in lane C3
+[2025-02-27 18:50:14.721] [INFO] Vehicle V255_L3_LEFT on lane C3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.722] [ERROR] Routing vehicle V255_L3_LEFT from C3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.723] [ERROR] CL3 route: LEFT to DL1
+[2025-02-27 18:50:14.723] [INFO] Vehicle V255_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.724] [INFO] Created vehicle V255_L3_LEFT for lane C3 (LEFT)
+[2025-02-27 18:50:14.724] [INFO] Created vehicle V260_L2_STRAIGHT in lane C2
+[2025-02-27 18:50:14.725] [INFO] Vehicle V260_L2_STRAIGHT on lane C2 will go STRAIGHT
+[2025-02-27 18:50:14.725] [ERROR] Routing vehicle V260_L2_STRAIGHT from C2 going STRAIGHT
+[2025-02-27 18:50:14.726] [ERROR] CL2 route: STRAIGHT to AL1
+[2025-02-27 18:50:14.727] [INFO] Vehicle V260_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.727] [INFO] Created vehicle V260_L2_STRAIGHT for lane C2 (STRAIGHT)
+[2025-02-27 18:50:14.729] [INFO] Read 13 vehicles from lane C
+[2025-02-27 18:50:14.730] [INFO] Created vehicle V215_L3_LEFT in lane D3
+[2025-02-27 18:50:14.731] [INFO] Vehicle V215_L3_LEFT on lane D3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.732] [ERROR] Routing vehicle V215_L3_LEFT from D3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.733] [ERROR] DL3 route: LEFT to AL1
+[2025-02-27 18:50:14.734] [INFO] Vehicle V215_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.735] [INFO] Created vehicle V215_L3_LEFT for lane D3 (LEFT)
+[2025-02-27 18:50:14.735] [INFO] Created vehicle V221_L3_LEFT in lane D3
+[2025-02-27 18:50:14.736] [INFO] Vehicle V221_L3_LEFT on lane D3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.737] [ERROR] Routing vehicle V221_L3_LEFT from D3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.737] [ERROR] DL3 route: LEFT to AL1
+[2025-02-27 18:50:14.738] [INFO] Vehicle V221_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.739] [INFO] Created vehicle V221_L3_LEFT for lane D3 (LEFT)
+[2025-02-27 18:50:14.740] [INFO] Created vehicle V223_L2_LEFT in lane D2
+[2025-02-27 18:50:14.744] [INFO] Vehicle V223_L2_LEFT on lane D2 will go LEFT
+[2025-02-27 18:50:14.745] [ERROR] Routing vehicle V223_L2_LEFT from D2 going LEFT
+[2025-02-27 18:50:14.751] [ERROR] DL2 route: LEFT to CL1
+[2025-02-27 18:50:14.752] [INFO] Vehicle V223_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.753] [INFO] Created vehicle V223_L2_LEFT for lane D2 (LEFT)
+[2025-02-27 18:50:14.754] [INFO] Created vehicle V225_L2_STRAIGHT in lane D2
+[2025-02-27 18:50:14.754] [INFO] Vehicle V225_L2_STRAIGHT on lane D2 will go STRAIGHT
+[2025-02-27 18:50:14.755] [ERROR] Routing vehicle V225_L2_STRAIGHT from D2 going STRAIGHT
+[2025-02-27 18:50:14.756] [ERROR] DL2 route: STRAIGHT to BL1
+[2025-02-27 18:50:14.757] [INFO] Vehicle V225_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.759] [INFO] Created vehicle V225_L2_STRAIGHT for lane D2 (STRAIGHT)
+[2025-02-27 18:50:14.764] [INFO] Created vehicle V226_L2_LEFT in lane D2
+[2025-02-27 18:50:14.765] [INFO] Vehicle V226_L2_LEFT on lane D2 will go LEFT
+[2025-02-27 18:50:14.765] [ERROR] Routing vehicle V226_L2_LEFT from D2 going LEFT
+[2025-02-27 18:50:14.766] [ERROR] DL2 route: LEFT to CL1
+[2025-02-27 18:50:14.767] [INFO] Vehicle V226_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.767] [INFO] Created vehicle V226_L2_LEFT for lane D2 (LEFT)
+[2025-02-27 18:50:14.768] [INFO] Created vehicle V232_L3_LEFT in lane D3
+[2025-02-27 18:50:14.769] [INFO] Vehicle V232_L3_LEFT on lane D3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.769] [ERROR] Routing vehicle V232_L3_LEFT from D3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.770] [ERROR] DL3 route: LEFT to AL1
+[2025-02-27 18:50:14.771] [INFO] Vehicle V232_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.772] [INFO] Created vehicle V232_L3_LEFT for lane D3 (LEFT)
+[2025-02-27 18:50:14.772] [INFO] Created vehicle V233_L2_LEFT in lane D2
+[2025-02-27 18:50:14.773] [INFO] Vehicle V233_L2_LEFT on lane D2 will go LEFT
+[2025-02-27 18:50:14.774] [ERROR] Routing vehicle V233_L2_LEFT from D2 going LEFT
+[2025-02-27 18:50:14.774] [ERROR] DL2 route: LEFT to CL1
+[2025-02-27 18:50:14.775] [INFO] Vehicle V233_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.776] [INFO] Created vehicle V233_L2_LEFT for lane D2 (LEFT)
+[2025-02-27 18:50:14.776] [INFO] Created vehicle V236_L2_LEFT in lane D2
+[2025-02-27 18:50:14.777] [INFO] Vehicle V236_L2_LEFT on lane D2 will go LEFT
+[2025-02-27 18:50:14.778] [ERROR] Routing vehicle V236_L2_LEFT from D2 going LEFT
+[2025-02-27 18:50:14.778] [ERROR] DL2 route: LEFT to CL1
+[2025-02-27 18:50:14.779] [INFO] Vehicle V236_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.780] [INFO] Created vehicle V236_L2_LEFT for lane D2 (LEFT)
+[2025-02-27 18:50:14.781] [INFO] Created vehicle V242_L3_LEFT in lane D3
+[2025-02-27 18:50:14.782] [INFO] Vehicle V242_L3_LEFT on lane D3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.783] [ERROR] Routing vehicle V242_L3_LEFT from D3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.783] [ERROR] DL3 route: LEFT to AL1
+[2025-02-27 18:50:14.786] [INFO] Vehicle V242_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.787] [INFO] Created vehicle V242_L3_LEFT for lane D3 (LEFT)
+[2025-02-27 18:50:14.788] [INFO] Created vehicle V243_L2_STRAIGHT in lane D2
+[2025-02-27 18:50:14.788] [INFO] Vehicle V243_L2_STRAIGHT on lane D2 will go STRAIGHT
+[2025-02-27 18:50:14.789] [ERROR] Routing vehicle V243_L2_STRAIGHT from D2 going STRAIGHT
+[2025-02-27 18:50:14.790] [ERROR] DL2 route: STRAIGHT to BL1
+[2025-02-27 18:50:14.791] [INFO] Vehicle V243_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.791] [INFO] Created vehicle V243_L2_STRAIGHT for lane D2 (STRAIGHT)
+[2025-02-27 18:50:14.792] [INFO] Created vehicle V244_L2_STRAIGHT in lane D2
+[2025-02-27 18:50:14.794] [INFO] Vehicle V244_L2_STRAIGHT on lane D2 will go STRAIGHT
+[2025-02-27 18:50:14.795] [ERROR] Routing vehicle V244_L2_STRAIGHT from D2 going STRAIGHT
+[2025-02-27 18:50:14.797] [ERROR] DL2 route: STRAIGHT to BL1
+[2025-02-27 18:50:14.798] [INFO] Vehicle V244_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.799] [INFO] Created vehicle V244_L2_STRAIGHT for lane D2 (STRAIGHT)
+[2025-02-27 18:50:14.800] [INFO] Created vehicle V248_L3_LEFT in lane D3
+[2025-02-27 18:50:14.800] [INFO] Vehicle V248_L3_LEFT on lane D3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.801] [ERROR] Routing vehicle V248_L3_LEFT from D3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.802] [ERROR] DL3 route: LEFT to AL1
+[2025-02-27 18:50:14.802] [INFO] Vehicle V248_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.804] [INFO] Created vehicle V248_L3_LEFT for lane D3 (LEFT)
+[2025-02-27 18:50:14.806] [INFO] Created vehicle V249_L3_LEFT in lane D3
+[2025-02-27 18:50:14.807] [INFO] Vehicle V249_L3_LEFT on lane D3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.808] [ERROR] Routing vehicle V249_L3_LEFT from D3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.808] [ERROR] DL3 route: LEFT to AL1
+[2025-02-27 18:50:14.809] [INFO] Vehicle V249_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.810] [INFO] Created vehicle V249_L3_LEFT for lane D3 (LEFT)
+[2025-02-27 18:50:14.811] [INFO] Created vehicle V252_L2_LEFT in lane D2
+[2025-02-27 18:50:14.811] [INFO] Vehicle V252_L2_LEFT on lane D2 will go LEFT
+[2025-02-27 18:50:14.812] [ERROR] Routing vehicle V252_L2_LEFT from D2 going LEFT
+[2025-02-27 18:50:14.813] [ERROR] DL2 route: LEFT to CL1
+[2025-02-27 18:50:14.813] [INFO] Vehicle V252_L2_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.814] [INFO] Created vehicle V252_L2_LEFT for lane D2 (LEFT)
+[2025-02-27 18:50:14.815] [INFO] Created vehicle V259_L2_STRAIGHT in lane D2
+[2025-02-27 18:50:14.815] [INFO] Vehicle V259_L2_STRAIGHT on lane D2 will go STRAIGHT
+[2025-02-27 18:50:14.816] [ERROR] Routing vehicle V259_L2_STRAIGHT from D2 going STRAIGHT
+[2025-02-27 18:50:14.817] [ERROR] DL2 route: STRAIGHT to BL1
+[2025-02-27 18:50:14.817] [INFO] Vehicle V259_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.818] [INFO] Created vehicle V259_L2_STRAIGHT for lane D2 (STRAIGHT)
+[2025-02-27 18:50:14.819] [INFO] Created vehicle V264_L2_STRAIGHT in lane D2
+[2025-02-27 18:50:14.820] [INFO] Vehicle V264_L2_STRAIGHT on lane D2 will go STRAIGHT
+[2025-02-27 18:50:14.820] [ERROR] Routing vehicle V264_L2_STRAIGHT from D2 going STRAIGHT
+[2025-02-27 18:50:14.821] [ERROR] DL2 route: STRAIGHT to BL1
+[2025-02-27 18:50:14.821] [INFO] Vehicle V264_L2_STRAIGHT initialized with 5 waypoints
+[2025-02-27 18:50:14.822] [INFO] Created vehicle V264_L2_STRAIGHT for lane D2 (STRAIGHT)
+[2025-02-27 18:50:14.823] [INFO] Created vehicle V266_L3_LEFT in lane D3
+[2025-02-27 18:50:14.824] [INFO] Vehicle V266_L3_LEFT on lane D3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.824] [ERROR] Routing vehicle V266_L3_LEFT from D3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.825] [ERROR] DL3 route: LEFT to AL1
+[2025-02-27 18:50:14.826] [INFO] Vehicle V266_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.828] [INFO] Created vehicle V266_L3_LEFT for lane D3 (LEFT)
+[2025-02-27 18:50:14.829] [INFO] Created vehicle V268_L3_LEFT in lane D3
+[2025-02-27 18:50:14.829] [INFO] Vehicle V268_L3_LEFT on lane D3 will turn LEFT (free lane rule)
+[2025-02-27 18:50:14.831] [ERROR] Routing vehicle V268_L3_LEFT from D3 (free lane, always turns LEFT)
+[2025-02-27 18:50:14.832] [ERROR] DL3 route: LEFT to AL1
+[2025-02-27 18:50:14.833] [INFO] Vehicle V268_L3_LEFT initialized with 6 waypoints
+[2025-02-27 18:50:14.835] [INFO] Created vehicle V268_L3_LEFT for lane D3 (LEFT)
+[2025-02-27 18:50:14.836] [INFO] Read 18 vehicles from lane D
+[2025-02-27 18:50:14.837] [INFO] Read 60 vehicles from lane files
+[2025-02-27 18:50:14.839] [INFO] Read 60 new vehicles from files
+[2025-02-27 18:50:14.841] [INFO] Vehicle V210_L2_LEFT added to lane A2 (PRIORITY LANE, count=1)
+[2025-02-27 18:50:14.842] [INFO] Added vehicle V210_L2_LEFT to lane A2
+[2025-02-27 18:50:14.843] [INFO] Vehicle V212_L2_STRAIGHT added to lane A2 (PRIORITY LANE, count=2)
+[2025-02-27 18:50:14.843] [INFO] Added vehicle V212_L2_STRAIGHT to lane A2
+[2025-02-27 18:50:14.844] [INFO] Vehicle V222_L2_STRAIGHT added to lane A2 (PRIORITY LANE, count=3)
+[2025-02-27 18:50:14.845] [INFO] Added vehicle V222_L2_STRAIGHT to lane A2
+[2025-02-27 18:50:14.846] [INFO] Vehicle V234_L2_LEFT added to lane A2 (PRIORITY LANE, count=4)
+[2025-02-27 18:50:14.847] [INFO] Added vehicle V234_L2_LEFT to lane A2
+[2025-02-27 18:50:14.849] [INFO] Vehicle V240_L3_LEFT added to lane A3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.849] [INFO] Added vehicle V240_L3_LEFT to lane A3
+[2025-02-27 18:50:14.850] [INFO] Vehicle V245_L3_LEFT added to lane A3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.852] [INFO] Added vehicle V245_L3_LEFT to lane A3
+[2025-02-27 18:50:14.854] [INFO] Vehicle V247_L2_STRAIGHT added to lane A2 (PRIORITY LANE, count=5)
+[2025-02-27 18:50:14.855] [INFO] Added vehicle V247_L2_STRAIGHT to lane A2
+[2025-02-27 18:50:14.856] [INFO] Vehicle V250_L2_LEFT added to lane A2 (PRIORITY LANE, count=6)
+[2025-02-27 18:50:14.856] [INFO] Added vehicle V250_L2_LEFT to lane A2
+[2025-02-27 18:50:14.858] [INFO] Vehicle V253_L3_LEFT added to lane A3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.859] [INFO] Added vehicle V253_L3_LEFT to lane A3
+[2025-02-27 18:50:14.859] [INFO] Vehicle V254_L2_STRAIGHT added to lane A2 (PRIORITY LANE, count=7)
+[2025-02-27 18:50:14.860] [INFO] Added vehicle V254_L2_STRAIGHT to lane A2
+[2025-02-27 18:50:14.861] [INFO] Vehicle V256_L2_STRAIGHT added to lane A2 (PRIORITY LANE, count=8)
+[2025-02-27 18:50:14.862] [INFO] Added vehicle V256_L2_STRAIGHT to lane A2
+[2025-02-27 18:50:14.863] [INFO] Vehicle V265_L3_LEFT added to lane A3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.864] [INFO] Added vehicle V265_L3_LEFT to lane A3
+[2025-02-27 18:50:14.864] [INFO] Vehicle V209_L2_LEFT added to lane B2
+[2025-02-27 18:50:14.865] [INFO] Added vehicle V209_L2_LEFT to lane B2
+[2025-02-27 18:50:14.867] [INFO] Vehicle V211_L2_STRAIGHT added to lane B2
+[2025-02-27 18:50:14.868] [INFO] Added vehicle V211_L2_STRAIGHT to lane B2
+[2025-02-27 18:50:14.869] [INFO] Vehicle V213_L3_LEFT added to lane B3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.870] [INFO] Added vehicle V213_L3_LEFT to lane B3
+[2025-02-27 18:50:14.871] [INFO] Vehicle V220_L2_STRAIGHT added to lane B2
+[2025-02-27 18:50:14.871] [INFO] Added vehicle V220_L2_STRAIGHT to lane B2
+[2025-02-27 18:50:14.873] [INFO] Vehicle V227_L3_LEFT added to lane B3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.873] [INFO] Added vehicle V227_L3_LEFT to lane B3
+[2025-02-27 18:50:14.874] [INFO] Vehicle V228_L2_LEFT added to lane B2
+[2025-02-27 18:50:14.875] [INFO] Added vehicle V228_L2_LEFT to lane B2
+[2025-02-27 18:50:14.876] [INFO] Vehicle V229_L2_STRAIGHT added to lane B2
+[2025-02-27 18:50:14.876] [INFO] Added vehicle V229_L2_STRAIGHT to lane B2
+[2025-02-27 18:50:14.877] [INFO] Vehicle V230_L2_LEFT added to lane B2
+[2025-02-27 18:50:14.878] [INFO] Added vehicle V230_L2_LEFT to lane B2
+[2025-02-27 18:50:14.879] [INFO] Vehicle V235_L3_LEFT added to lane B3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.880] [INFO] Added vehicle V235_L3_LEFT to lane B3
+[2025-02-27 18:50:14.880] [INFO] Vehicle V239_L2_STRAIGHT added to lane B2
+[2025-02-27 18:50:14.881] [INFO] Added vehicle V239_L2_STRAIGHT to lane B2
+[2025-02-27 18:50:14.882] [INFO] Vehicle V241_L3_LEFT added to lane B3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.882] [INFO] Added vehicle V241_L3_LEFT to lane B3
+[2025-02-27 18:50:14.883] [INFO] Vehicle V257_L3_LEFT added to lane B3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.883] [INFO] Added vehicle V257_L3_LEFT to lane B3
+[2025-02-27 18:50:14.884] [INFO] Vehicle V258_L3_LEFT added to lane B3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.885] [INFO] Added vehicle V258_L3_LEFT to lane B3
+[2025-02-27 18:50:14.886] [INFO] Vehicle V261_L3_LEFT added to lane B3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.886] [INFO] Added vehicle V261_L3_LEFT to lane B3
+[2025-02-27 18:50:14.887] [INFO] Vehicle V262_L2_STRAIGHT added to lane B2
+[2025-02-27 18:50:14.888] [INFO] Added vehicle V262_L2_STRAIGHT to lane B2
+[2025-02-27 18:50:14.889] [INFO] Vehicle V263_L2_STRAIGHT added to lane B2
+[2025-02-27 18:50:14.889] [INFO] Added vehicle V263_L2_STRAIGHT to lane B2
+[2025-02-27 18:50:14.890] [INFO] Vehicle V267_L3_LEFT added to lane B3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.891] [INFO] Added vehicle V267_L3_LEFT to lane B3
+[2025-02-27 18:50:14.891] [INFO] Vehicle V214_L2_LEFT added to lane C2
+[2025-02-27 18:50:14.892] [INFO] Added vehicle V214_L2_LEFT to lane C2
+[2025-02-27 18:50:14.893] [INFO] Vehicle V216_L3_LEFT added to lane C3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.893] [INFO] Added vehicle V216_L3_LEFT to lane C3
+[2025-02-27 18:50:14.894] [INFO] Vehicle V217_L2_LEFT added to lane C2
+[2025-02-27 18:50:14.896] [INFO] Added vehicle V217_L2_LEFT to lane C2
+[2025-02-27 18:50:14.897] [INFO] Vehicle V218_L3_LEFT added to lane C3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.898] [INFO] Added vehicle V218_L3_LEFT to lane C3
+[2025-02-27 18:50:14.899] [INFO] Vehicle V219_L3_LEFT added to lane C3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.899] [INFO] Added vehicle V219_L3_LEFT to lane C3
+[2025-02-27 18:50:14.900] [INFO] Vehicle V224_L2_STRAIGHT added to lane C2
+[2025-02-27 18:50:14.901] [INFO] Added vehicle V224_L2_STRAIGHT to lane C2
+[2025-02-27 18:50:14.902] [INFO] Vehicle V231_L2_STRAIGHT added to lane C2
+[2025-02-27 18:50:14.902] [INFO] Added vehicle V231_L2_STRAIGHT to lane C2
+[2025-02-27 18:50:14.903] [INFO] Vehicle V237_L2_LEFT added to lane C2
+[2025-02-27 18:50:14.904] [INFO] Added vehicle V237_L2_LEFT to lane C2
+[2025-02-27 18:50:14.906] [INFO] Vehicle V238_L2_LEFT added to lane C2
+[2025-02-27 18:50:14.906] [INFO] Added vehicle V238_L2_LEFT to lane C2
+[2025-02-27 18:50:14.907] [INFO] Vehicle V246_L3_LEFT added to lane C3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.908] [INFO] Added vehicle V246_L3_LEFT to lane C3
+[2025-02-27 18:50:14.909] [INFO] Vehicle V251_L2_STRAIGHT added to lane C2
+[2025-02-27 18:50:14.910] [INFO] Added vehicle V251_L2_STRAIGHT to lane C2
+[2025-02-27 18:50:14.911] [INFO] Vehicle V255_L3_LEFT added to lane C3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.912] [INFO] Added vehicle V255_L3_LEFT to lane C3
+[2025-02-27 18:50:14.913] [INFO] Vehicle V260_L2_STRAIGHT added to lane C2
+[2025-02-27 18:50:14.915] [INFO] Added vehicle V260_L2_STRAIGHT to lane C2
+[2025-02-27 18:50:14.916] [INFO] Vehicle V215_L3_LEFT added to lane D3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.917] [INFO] Added vehicle V215_L3_LEFT to lane D3
+[2025-02-27 18:50:14.919] [INFO] Vehicle V221_L3_LEFT added to lane D3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.920] [INFO] Added vehicle V221_L3_LEFT to lane D3
+[2025-02-27 18:50:14.921] [INFO] Vehicle V223_L2_LEFT added to lane D2
+[2025-02-27 18:50:14.923] [INFO] Added vehicle V223_L2_LEFT to lane D2
+[2025-02-27 18:50:14.924] [INFO] Vehicle V225_L2_STRAIGHT added to lane D2
+[2025-02-27 18:50:14.925] [INFO] Added vehicle V225_L2_STRAIGHT to lane D2
+[2025-02-27 18:50:14.928] [INFO] Vehicle V226_L2_LEFT added to lane D2
+[2025-02-27 18:50:14.928] [INFO] Added vehicle V226_L2_LEFT to lane D2
+[2025-02-27 18:50:14.930] [INFO] Vehicle V232_L3_LEFT added to lane D3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.931] [INFO] Added vehicle V232_L3_LEFT to lane D3
+[2025-02-27 18:50:14.932] [INFO] Vehicle V233_L2_LEFT added to lane D2
+[2025-02-27 18:50:14.933] [INFO] Added vehicle V233_L2_LEFT to lane D2
+[2025-02-27 18:50:14.934] [INFO] Vehicle V236_L2_LEFT added to lane D2
+[2025-02-27 18:50:14.934] [INFO] Added vehicle V236_L2_LEFT to lane D2
+[2025-02-27 18:50:14.935] [INFO] Vehicle V242_L3_LEFT added to lane D3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.936] [INFO] Added vehicle V242_L3_LEFT to lane D3
+[2025-02-27 18:50:14.937] [INFO] Vehicle V243_L2_STRAIGHT added to lane D2
+[2025-02-27 18:50:14.937] [INFO] Added vehicle V243_L2_STRAIGHT to lane D2
+[2025-02-27 18:50:14.938] [INFO] Vehicle V244_L2_STRAIGHT added to lane D2
+[2025-02-27 18:50:14.939] [INFO] Added vehicle V244_L2_STRAIGHT to lane D2
+[2025-02-27 18:50:14.939] [INFO] Vehicle V248_L3_LEFT added to lane D3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.940] [INFO] Added vehicle V248_L3_LEFT to lane D3
+[2025-02-27 18:50:14.941] [INFO] Vehicle V249_L3_LEFT added to lane D3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.941] [INFO] Added vehicle V249_L3_LEFT to lane D3
+[2025-02-27 18:50:14.942] [INFO] Vehicle V252_L2_LEFT added to lane D2
+[2025-02-27 18:50:14.942] [INFO] Added vehicle V252_L2_LEFT to lane D2
+[2025-02-27 18:50:14.943] [INFO] Vehicle V259_L2_STRAIGHT added to lane D2
+[2025-02-27 18:50:14.945] [INFO] Added vehicle V259_L2_STRAIGHT to lane D2
+[2025-02-27 18:50:14.946] [INFO] Vehicle V264_L2_STRAIGHT added to lane D2
+[2025-02-27 18:50:14.946] [INFO] Added vehicle V264_L2_STRAIGHT to lane D2
+[2025-02-27 18:50:14.947] [INFO] Vehicle V266_L3_LEFT added to lane D3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.948] [INFO] Added vehicle V266_L3_LEFT to lane D3
+[2025-02-27 18:50:14.948] [INFO] Vehicle V268_L3_LEFT added to lane D3 (FREE LANE, always allowed to turn left)
+[2025-02-27 18:50:14.949] [INFO] Added vehicle V268_L3_LEFT to lane D3
+[2025-02-27 18:50:14.950] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:14.950] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:14.951] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:14.952] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:14.952] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:14.953] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:14.975] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:14.975] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:14.976] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:14.977] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:14.977] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:14.978] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:14.997] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:14.998] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:14.999] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.000] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.001] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.001] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.022] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.023] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.024] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.024] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.025] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.026] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.047] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.048] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.049] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.050] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.050] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.051] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.069] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.070] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.071] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.071] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.072] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.073] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.091] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.092] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.093] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.095] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.096] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.097] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.117] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.119] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.119] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.120] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.122] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.122] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.143] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.145] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.146] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.146] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.147] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.148] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.167] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.168] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.169] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.170] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.176] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.177] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.206] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.211] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.225] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.228] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.229] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.231] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.251] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.255] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.256] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.257] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.258] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.259] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.279] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.280] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.281] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.282] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.283] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.283] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.303] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.303] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.304] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.305] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.305] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.306] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.325] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.326] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.326] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.327] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.328] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.328] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.347] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.348] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.348] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.349] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.350] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.350] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.369] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.369] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.370] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.371] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.371] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.372] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.391] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.392] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.393] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.394] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.396] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.396] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.416] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.416] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.417] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.418] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.418] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.419] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.438] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.445] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.446] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.447] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.448] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.450] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.472] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.473] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.474] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.474] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.475] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.475] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.495] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.496] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.497] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.498] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.498] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.499] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.517] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.518] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.518] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.519] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.519] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.520] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.537] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.538] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.538] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.539] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.539] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.540] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.557] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.558] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.559] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.559] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.560] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.561] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.579] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.580] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.580] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.581] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.582] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.583] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.601] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.602] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.602] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.603] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.603] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.604] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.623] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.624] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.624] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.625] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.625] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.626] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.645] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.646] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.646] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.647] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.647] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.648] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.666] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.666] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.667] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.667] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.668] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.668] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.686] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.687] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.687] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.688] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.689] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.689] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.709] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.710] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.710] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.711] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.712] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.713] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.732] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.732] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.733] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.734] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.735] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.736] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.755] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.755] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.756] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.757] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.757] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.758] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.776] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.776] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.777] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.778] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.778] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.779] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.798] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.798] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.799] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.799] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.800] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.800] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.817] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.818] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.819] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.819] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.820] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.820] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.839] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.840] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.840] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.841] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.842] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.842] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.860] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.861] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.861] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.862] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.863] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.863] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.882] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.882] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.883] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.883] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.884] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.884] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.902] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.903] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.903] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.904] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.904] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.905] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.923] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.924] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.924] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.925] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.926] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.926] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.945] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.946] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.946] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.947] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.948] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.949] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.967] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.968] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.968] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.969] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.969] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.970] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.988] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:15.989] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:15.989] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:15.990] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:15.991] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:15.991] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.010] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.011] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:16.011] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.012] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.013] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.013] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.031] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.032] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:16.032] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.032] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.033] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.033] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.052] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.053] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:16.053] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.054] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.055] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.055] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.073] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.073] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:16.074] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.074] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.075] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.076] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.095] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.096] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:16.096] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.097] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.097] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.098] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.116] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.116] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:16.117] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.117] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.118] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.118] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.137] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.137] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:16.138] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.138] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.139] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.139] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.158] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.159] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:16.159] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.160] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.161] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.162] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.181] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.181] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:16.182] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.182] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.183] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.183] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.201] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.202] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:16.202] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.203] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.204] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.204] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.223] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.223] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:16.224] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.224] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.225] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.225] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.244] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.244] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:16.245] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.245] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.246] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.246] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.265] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.265] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=0
+[2025-02-27 18:50:16.266] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.266] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.267] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.267] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.268] [INFO] Traffic light changed to: A_GREEN
+[2025-02-27 18:50:16.268] [INFO] A2 (Priority lane) has 8 vehicles (Priority: 0)
+[2025-02-27 18:50:16.268] [INFO] Current light state: A_GREEN
+[2025-02-27 18:50:16.288] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.288] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.289] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.289] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.290] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.291] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.291] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.311] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.312] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.313] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.314] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.314] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.315] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.315] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.334] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.335] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.335] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.336] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.337] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.337] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.337] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.357] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.357] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.358] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.358] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.359] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.359] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.360] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.382] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.382] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.383] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.383] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.384] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.384] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.385] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.403] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.404] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.404] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.405] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.405] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.405] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.406] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.425] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.425] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.426] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.426] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.427] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.428] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.428] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.446] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.447] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.448] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.448] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.449] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.449] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.450] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.469] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.470] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.470] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.471] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.471] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.472] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.473] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.491] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.492] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.492] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.493] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.494] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.494] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.495] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.513] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.514] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.515] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.516] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.517] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.517] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.518] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.537] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.538] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.539] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.539] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.540] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.540] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.541] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.558] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.559] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.560] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.561] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.561] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.562] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.563] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.582] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.583] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.583] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.584] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.584] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.585] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.585] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.605] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.605] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.606] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.606] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.607] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.608] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.608] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.628] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.629] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.630] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.630] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.631] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.631] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.632] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.651] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.652] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.652] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.653] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.653] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.654] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.655] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.675] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.675] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.676] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.676] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.677] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.678] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.679] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.698] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.699] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.699] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.700] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.701] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.702] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.702] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.721] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.721] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.722] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.722] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.723] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.723] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.724] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.742] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.743] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.743] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.744] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.745] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.745] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.746] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.765] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.765] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.766] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.766] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.766] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.767] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.767] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.786] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.787] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.787] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.788] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.789] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.789] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.790] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.808] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.809] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.810] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.811] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.811] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.812] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.813] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.831] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.831] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.832] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.832] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.833] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.833] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.834] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.852] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.853] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.853] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.854] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.854] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.854] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.855] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.874] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.875] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.876] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.876] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.877] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.877] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.878] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.897] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.898] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.898] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.899] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.899] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.899] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.900] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.921] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.922] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.922] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.923] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.923] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.924] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.924] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.942] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.943] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.944] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.945] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.946] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.946] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.947] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.965] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.966] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.966] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.967] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.967] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.968] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.968] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:16.987] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:16.988] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:16.988] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:16.989] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.989] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:16.989] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:16.990] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.008] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.009] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.010] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.010] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.011] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.012] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.012] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.031] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.031] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.032] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.032] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.033] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.033] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.034] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.052] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.053] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.053] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.054] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.055] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.055] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.056] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.076] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.076] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.077] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.077] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.078] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.079] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.079] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.098] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.099] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.099] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.100] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.100] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.101] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.101] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.120] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.120] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.121] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.122] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.122] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.123] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.124] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.141] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.142] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.143] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.144] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.145] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.145] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.146] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.167] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.167] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.168] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.168] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.169] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.169] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.169] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.189] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.190] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.191] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.191] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.192] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.193] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.193] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.211] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.212] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.213] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.214] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.214] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.215] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.215] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.233] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.234] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.235] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.235] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.236] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.236] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.237] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.255] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.256] [ERROR] PRIORITY LANE (A2): Vehicle V210_L2_LEFT canMove=true
+[2025-02-27 18:50:17.256] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.257] [ERROR] FREE LANE (A3): Vehicle V240_L3_LEFT moving freely
+[2025-02-27 18:50:17.257] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.258] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.259] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.259] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.260] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.279] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.279] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.280] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.281] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.282] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.282] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.282] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.301] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.302] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.302] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.303] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.304] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.304] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.305] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.323] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.324] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.325] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.325] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.326] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.327] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.328] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.346] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.347] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.347] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.347] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.348] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.348] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.349] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.367] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.368] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.369] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.369] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.370] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.370] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.371] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.390] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.390] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.391] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.391] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.392] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.392] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.393] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.411] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.412] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.412] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.413] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.414] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.414] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.414] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.433] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.433] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.434] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.435] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.435] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.436] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.436] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.454] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.454] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.455] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.455] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.456] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.457] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.457] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.476] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.476] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.477] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.477] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.478] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.478] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.479] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.498] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.499] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.499] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.500] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.500] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.501] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.502] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.520] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.520] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.521] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.521] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.521] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.522] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.522] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.542] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.542] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.543] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.544] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.545] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.546] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.546] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.564] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.565] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.566] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.566] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.567] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.567] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.567] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.585] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.586] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.587] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.587] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.588] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.589] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.590] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.608] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.609] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.610] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.611] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.612] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.613] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.613] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.631] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.632] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.633] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.633] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.634] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.635] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.636] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.654] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.655] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.655] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.656] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.657] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.658] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.659] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.677] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.678] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.679] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.679] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.680] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.681] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.681] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.700] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.700] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.701] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.701] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.702] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.703] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.703] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.722] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.723] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.723] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.724] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.725] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.726] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.726] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.745] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.745] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.746] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.746] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.747] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.747] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.748] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.767] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.767] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.768] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.769] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.769] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.770] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.771] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.789] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.789] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.790] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.790] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.791] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.791] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.792] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.810] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.811] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.811] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.812] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.813] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.813] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.814] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.832] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.832] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.833] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.834] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.834] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.835] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.835] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.854] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.854] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.855] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.855] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.856] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.857] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.857] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.876] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.876] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.877] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.877] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.878] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.879] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.879] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.900] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.901] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.901] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.902] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.903] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.903] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.904] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.923] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.923] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.924] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.924] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.925] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.926] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.926] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.947] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.947] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.948] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.948] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.949] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.950] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.950] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.970] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.970] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.971] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.971] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.972] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.973] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.973] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:17.992] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:17.993] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:17.994] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:17.995] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.996] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:17.996] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:17.997] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.017] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.017] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.018] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.019] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.019] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.019] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.020] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.037] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.038] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.039] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.040] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.040] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.041] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.042] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.060] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.061] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.061] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.062] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.062] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.063] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.063] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.081] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.082] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.082] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.083] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.084] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.084] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.085] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.105] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.106] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.106] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.107] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.107] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.108] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.109] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.129] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.130] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.131] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.131] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.132] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.133] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.133] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.152] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.153] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.153] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.154] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.154] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.155] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.156] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.174] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.175] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.175] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.176] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.177] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.177] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.178] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.196] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.196] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.197] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.197] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.198] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.198] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.199] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.217] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.217] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.218] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.219] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.219] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.220] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.221] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.240] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.240] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.241] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.242] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.242] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.243] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.244] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.264] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.264] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.265] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.265] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.266] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.267] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.267] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.285] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.286] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.287] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.287] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.288] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.288] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.289] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.289] [INFO] A2 (Priority lane) has 8 vehicles (Priority: 0)
+[2025-02-27 18:50:18.289] [INFO] Current light state: A_GREEN
+[2025-02-27 18:50:18.308] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.309] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.310] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.311] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.311] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.312] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.313] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.330] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.331] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.331] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.332] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.332] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.333] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.333] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.352] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.352] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.353] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.353] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.354] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.355] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.355] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.373] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.374] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.374] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.375] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.375] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.376] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.376] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.394] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.395] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.395] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.396] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.397] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.397] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.398] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.416] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.417] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.417] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.418] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.418] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.419] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.419] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.437] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.438] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.438] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.439] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.439] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.440] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.440] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.459] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.460] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.460] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.461] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.461] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.462] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.462] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.596] [DEBUG] Lane Status: A2:8 A3:4 B2:9 B3:8 C2:8 C3:5 D2:10 D3:8 
+[2025-02-27 18:50:18.597] [DEBUG] A2 (Priority): 8 vehicles, GreenLight=1
+[2025-02-27 18:50:18.597] [DEBUG] A3 (Free lane): 4 vehicles, GreenLight=true
+[2025-02-27 18:50:18.598] [DEBUG] B3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.598] [DEBUG] C3 (Free lane): 5 vehicles, GreenLight=true
+[2025-02-27 18:50:18.599] [DEBUG] D3 (Free lane): 8 vehicles, GreenLight=true
+[2025-02-27 18:50:18.599] [INFO] Traffic light timing: |V| = 8.75, Duration = 15 seconds
+[2025-02-27 18:50:18.618] [INFO] TrafficManager stopped
+[2025-02-27 18:50:18.643] [INFO] Simulator shutdown complete
+[2025-02-27 18:50:18.646] [INFO] Destroyed vehicle V210_L2_LEFT
+[2025-02-27 18:50:18.650] [INFO] Destroyed vehicle V212_L2_STRAIGHT
+[2025-02-27 18:50:18.651] [INFO] Destroyed vehicle V222_L2_STRAIGHT
+[2025-02-27 18:50:18.652] [INFO] Destroyed vehicle V234_L2_LEFT
+[2025-02-27 18:50:18.652] [INFO] Destroyed vehicle V247_L2_STRAIGHT
+[2025-02-27 18:50:18.653] [INFO] Destroyed vehicle V250_L2_LEFT
+[2025-02-27 18:50:18.654] [INFO] Destroyed vehicle V254_L2_STRAIGHT
+[2025-02-27 18:50:18.655] [INFO] Destroyed vehicle V256_L2_STRAIGHT
+[2025-02-27 18:50:18.655] [INFO] Destroyed vehicle V240_L3_LEFT
+[2025-02-27 18:50:18.656] [INFO] Destroyed vehicle V245_L3_LEFT
+[2025-02-27 18:50:18.657] [INFO] Destroyed vehicle V253_L3_LEFT
+[2025-02-27 18:50:18.658] [INFO] Destroyed vehicle V265_L3_LEFT
+[2025-02-27 18:50:18.659] [INFO] Destroyed vehicle V209_L2_LEFT
+[2025-02-27 18:50:18.660] [INFO] Destroyed vehicle V211_L2_STRAIGHT
+[2025-02-27 18:50:18.661] [INFO] Destroyed vehicle V220_L2_STRAIGHT
+[2025-02-27 18:50:18.662] [INFO] Destroyed vehicle V228_L2_LEFT
+[2025-02-27 18:50:18.662] [INFO] Destroyed vehicle V229_L2_STRAIGHT
+[2025-02-27 18:50:18.663] [INFO] Destroyed vehicle V230_L2_LEFT
+[2025-02-27 18:50:18.664] [INFO] Destroyed vehicle V239_L2_STRAIGHT
+[2025-02-27 18:50:18.664] [INFO] Destroyed vehicle V262_L2_STRAIGHT
+[2025-02-27 18:50:18.665] [INFO] Destroyed vehicle V263_L2_STRAIGHT
+[2025-02-27 18:50:18.665] [INFO] Destroyed vehicle V213_L3_LEFT
+[2025-02-27 18:50:18.666] [INFO] Destroyed vehicle V227_L3_LEFT
+[2025-02-27 18:50:18.667] [INFO] Destroyed vehicle V235_L3_LEFT
+[2025-02-27 18:50:18.667] [INFO] Destroyed vehicle V241_L3_LEFT
+[2025-02-27 18:50:18.668] [INFO] Destroyed vehicle V257_L3_LEFT
+[2025-02-27 18:50:18.669] [INFO] Destroyed vehicle V258_L3_LEFT
+[2025-02-27 18:50:18.670] [INFO] Destroyed vehicle V261_L3_LEFT
+[2025-02-27 18:50:18.670] [INFO] Destroyed vehicle V267_L3_LEFT
+[2025-02-27 18:50:18.671] [INFO] Destroyed vehicle V214_L2_LEFT
+[2025-02-27 18:50:18.672] [INFO] Destroyed vehicle V217_L2_LEFT
+[2025-02-27 18:50:18.672] [INFO] Destroyed vehicle V224_L2_STRAIGHT
+[2025-02-27 18:50:18.673] [INFO] Destroyed vehicle V231_L2_STRAIGHT
+[2025-02-27 18:50:18.673] [INFO] Destroyed vehicle V237_L2_LEFT
+[2025-02-27 18:50:18.674] [INFO] Destroyed vehicle V238_L2_LEFT
+[2025-02-27 18:50:18.674] [INFO] Destroyed vehicle V251_L2_STRAIGHT
+[2025-02-27 18:50:18.675] [INFO] Destroyed vehicle V260_L2_STRAIGHT
+[2025-02-27 18:50:18.675] [INFO] Destroyed vehicle V216_L3_LEFT
+[2025-02-27 18:50:18.676] [INFO] Destroyed vehicle V218_L3_LEFT
+[2025-02-27 18:50:18.677] [INFO] Destroyed vehicle V219_L3_LEFT
+[2025-02-27 18:50:18.678] [INFO] Destroyed vehicle V246_L3_LEFT
+[2025-02-27 18:50:18.678] [INFO] Destroyed vehicle V255_L3_LEFT
+[2025-02-27 18:50:18.679] [INFO] Destroyed vehicle V223_L2_LEFT
+[2025-02-27 18:50:18.680] [INFO] Destroyed vehicle V225_L2_STRAIGHT
+[2025-02-27 18:50:18.681] [INFO] Destroyed vehicle V226_L2_LEFT
+[2025-02-27 18:50:18.681] [INFO] Destroyed vehicle V233_L2_LEFT
+[2025-02-27 18:50:18.682] [INFO] Destroyed vehicle V236_L2_LEFT
+[2025-02-27 18:50:18.682] [INFO] Destroyed vehicle V243_L2_STRAIGHT
+[2025-02-27 18:50:18.683] [INFO] Destroyed vehicle V244_L2_STRAIGHT
+[2025-02-27 18:50:18.683] [INFO] Destroyed vehicle V252_L2_LEFT
+[2025-02-27 18:50:18.684] [INFO] Destroyed vehicle V259_L2_STRAIGHT
+[2025-02-27 18:50:18.684] [INFO] Destroyed vehicle V264_L2_STRAIGHT
+[2025-02-27 18:50:18.685] [INFO] Destroyed vehicle V215_L3_LEFT
+[2025-02-27 18:50:18.685] [INFO] Destroyed vehicle V221_L3_LEFT
+[2025-02-27 18:50:18.686] [INFO] Destroyed vehicle V232_L3_LEFT
+[2025-02-27 18:50:18.686] [INFO] Destroyed vehicle V242_L3_LEFT
+[2025-02-27 18:50:18.687] [INFO] Destroyed vehicle V248_L3_LEFT
+[2025-02-27 18:50:18.688] [INFO] Destroyed vehicle V249_L3_LEFT
+[2025-02-27 18:50:18.689] [INFO] Destroyed vehicle V266_L3_LEFT
+[2025-02-27 18:50:18.689] [INFO] Destroyed vehicle V268_L3_LEFT
+[2025-02-27 18:50:18.690] [INFO] TrafficLight destroyed
+[2025-02-27 18:50:18.691] [INFO] FileHandler destroyed
+[2025-02-27 18:50:18.691] [INFO] TrafficManager destroyed
