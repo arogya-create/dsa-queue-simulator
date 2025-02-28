@@ -1,7 +1,7 @@
 // src/utils/vector2d.h
 #pragma once
-
-struct Vector2D {
+// structure file
+struct Vector2D {   
     float x;
     float y;
 
