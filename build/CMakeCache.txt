@@ -11,7 +11,7 @@
 # VALUE is the current value for the KEY.
 
 ########################
-# EXTERNAL cache entries
+# EXTERNAL cache
 ########################
 
 //Path to a program.
