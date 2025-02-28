@@ -33,5 +33,4 @@ private:
   void destroyTexture();
 };
 
-#endif // TEXT_H
-
+#endif // TEXT_H 
