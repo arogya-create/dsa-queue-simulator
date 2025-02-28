@@ -11,7 +11,7 @@ namespace fs = std::filesystem;
 
 FileHandler::FileHandler(const std::string& dataPath)
     : dataPath(dataPath) {
-
+//path 
     DebugLogger::log("FileHandler created with path: " + dataPath);
 }
 
